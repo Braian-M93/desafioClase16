@@ -1,0 +1,29 @@
+.btn{
+	width: 150px;
+	height: 60px;
+	border: none;
+	border-radius: 30px;
+	&:hover{
+		color: #00ff00;
+		cursor: pointer;
+
+	}
+
+}
+
+@mixin texto($font-size, $line-height, $color, $background){
+	font-size: $font-size;
+	line-height: $line-height;
+	color: $color;
+	background: $background;
+	padding: 3px;
+}
+
+$paleta: (
+	'uno':#ff0000,
+	'dos': #0000ff,
+	'tres': #000000,
+	'cuatro':#808080,
+	'cinco':#ffff00,
+	'seis':#00ff00,
+	'siete':#00b300);

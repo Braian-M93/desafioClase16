@@ -1,0 +1,24 @@
+
+.btn-primary{
+	@extend .btn;
+	background-color: red;
+	color: blue;
+
+}
+
+.btn-secondary{
+	@extend .btn;
+	background-color: black;
+	color: white;
+}
+
+.texto{
+	@include texto( 2em, 1em, black, red);
+}
+p{
+	@include texto(1em, 1em, black, red)
+}
+
+.bg-green{
+	background-color: map-get($map:$paleta,$key:'siete')
+}

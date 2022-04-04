@@ -1,0 +1,33 @@
+.btn, .btn-primary, .btn-secondary {
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 30px; }
+  .btn:hover, .btn-primary:hover, .btn-secondary:hover {
+    color: #00ff00;
+    cursor: pointer; }
+
+.btn-primary {
+  background-color: red;
+  color: blue; }
+
+.btn-secondary {
+  background-color: black;
+  color: white; }
+
+.texto {
+  font-size: 2em;
+  line-height: 1em;
+  color: black;
+  background: red;
+  padding: 3px; }
+
+p {
+  font-size: 1em;
+  line-height: 1em;
+  color: black;
+  background: red;
+  padding: 3px; }
+
+.bg-green {
+  background-color: #00b300; }
